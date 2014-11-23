@@ -3,18 +3,20 @@
   "main": "app.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --compilers coffee:coffee-script/register --reporter nyan",
-    "start": "coffee app.coffee"
+    "start": "./node_modules/nodemon/bin/nodemon.js app.coffee"
   },
   "dependencies": {
     "body-parser": "^1.9.3",
     "coffee-script": "^1.8.0",
     "express": "^4.10.2",
     "jade": "^1.7.0",
-    "path": "^0.4.9"
+    "path": "^0.4.9",
+    "socket.io": "^1.2.1"
   },
   "devDependencies": {
     "chai": "^1.10.0",
     "mocha": "^2.0.1",
+    "nodemon": "^1.2.1",
     "supertest": "^0.15.0"
   }
 }
