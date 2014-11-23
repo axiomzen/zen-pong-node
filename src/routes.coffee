@@ -14,7 +14,5 @@ module.exports = (app) ->
 
   # Increment score
   app.post '/score', (req, res) ->
-    console.log req.body
-    player = players[req.body.player - 1] # account for base 0
-    console.log player
+    player = players[parseInt(req.body.player) - 1] # account for base 0
     res.json(++player.score)
