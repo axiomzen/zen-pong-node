@@ -13,6 +13,6 @@ module.exports = (app) ->
     res.send("joining as #{req.body.name}...")
 
   # Increment score
-  app.put '/score', (req, res) ->
+  app.post '/score', (req, res) ->
     player = players[req.body.player - 1] # account for base 0
     res.json(++player.score)
