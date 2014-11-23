@@ -3,7 +3,7 @@
   "main": "app.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --compilers coffee:coffee-script/register --reporter nyan",
-    "start": "node app.js"
+    "start": "coffee app.coffee"
   },
   "dependencies": {
     "body-parser": "^1.9.3",
