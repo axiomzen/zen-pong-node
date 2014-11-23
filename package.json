@@ -10,7 +10,8 @@
     "coffee-script": "^1.8.0",
     "express": "^4.10.2",
     "jade": "^1.7.0",
-    "path": "^0.4.9"
+    "path": "^0.4.9",
+    "socket.io": "^1.2.1"
   },
   "devDependencies": {
     "chai": "^1.10.0",
