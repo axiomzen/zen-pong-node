@@ -1,0 +1,14 @@
+html
+  body
+    .playerA
+      if players[0]
+        .name= players[0].name
+        .score= players[0].score
+      else
+        p Waiting for a new challenger
+    .playerB
+      if players[1]
+        .name= players[1].name
+        .score= players[1].score
+      else
+        p Waiting for a new challenger

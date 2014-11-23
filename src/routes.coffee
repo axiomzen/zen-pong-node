@@ -5,7 +5,8 @@ module.exports = (app) ->
 
   # Get current game info
   app.get '/game', (req, res) ->
-    res.send players: players
+    res.render 'game',
+      players: players
 
   # Login screen
   app.get '/login', (req, res) ->
