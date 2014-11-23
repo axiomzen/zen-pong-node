@@ -7,6 +7,10 @@ module.exports = (app) ->
   app.get '/game', (req, res) ->
     res.send players: players
 
+  # Login screen
+  app.get '/login', (req, res) ->
+    res.render 'login'
+
   # Join a game
   app.post '/join', (req, res) ->
     players.push new Player(req.body.name)

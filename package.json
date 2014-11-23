@@ -8,7 +8,9 @@
   "dependencies": {
     "body-parser": "^1.9.3",
     "coffee-script": "^1.8.0",
-    "express": "^4.10.2"
+    "express": "^4.10.2",
+    "jade": "^1.7.0",
+    "path": "^0.4.9"
   },
   "devDependencies": {
     "chai": "^1.10.0",
