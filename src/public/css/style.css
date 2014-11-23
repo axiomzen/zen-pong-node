@@ -1,0 +1,36 @@
+body{
+  height: 100%;
+  margin: 0;
+}
+.container{
+  background-color: #00A0B0;
+  text-align: center;
+  height: 100%;
+}
+
+.login-box{
+  position: relative;
+  top: 40%;
+  padding: 1.5em;
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.submit-box{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.7em;
+  border: none;
+  background-color: transparent;
+  border: 1px solid #fff;
+  font-size: 1em;
+  margin-top: 1em;
+  color: #fff;
+}
+.input-box{
+  padding: 0.5em;
+  text-align: center;
+  font-size: 1.2em;
+}

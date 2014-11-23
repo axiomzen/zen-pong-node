@@ -1,3 +1,9 @@
 html
+  head
+    link(href='/css/style.css', rel='stylesheet', type='text/css')
   body
-    h1 hello
+    .container
+      .login-box
+        form(action="/join" method="POST")
+          input(type="text", name="name", placeholder="login id").input-box
+          input(type="submit").submit-box
