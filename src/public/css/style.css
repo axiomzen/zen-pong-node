@@ -7,7 +7,13 @@ body{
   text-align: center;
   height: 100%;
 }
-
+.container-table{
+  background-color: #00A0B0;
+  text-align: center;
+  height: 100%;
+  display: table;
+  width: 100%;
+}
 .login-box{
   position: relative;
   top: 40%;
@@ -39,4 +45,28 @@ body{
   color: #fff;
   padding-top: 0.5em;
   font-family: arial;
+}
+
+.column-1{
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h3{
+  font-size: 10em;
+}
+
+h2{
+  font-size: 3em;
+}
+
+.column-2{
+  height: 100%;
+  background-color: #EB6841;
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+
 }
