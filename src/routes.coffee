@@ -14,7 +14,8 @@ module.exports = (app) ->
   # Join a game
   app.post '/join', (req, res) ->
     players.push new Player(req.body.name)
-    res.send("joining as #{req.body.name}...")
+    res.render 'join',
+      name: req.body.name
 
   # Increment score
   app.post '/score', (req, res) ->

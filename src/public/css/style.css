@@ -34,3 +34,9 @@ body{
   text-align: center;
   font-size: 1.2em;
 }
+
+.join-text{
+  color: #fff;
+  padding-top: 0.5em;
+  font-family: arial;
+}
