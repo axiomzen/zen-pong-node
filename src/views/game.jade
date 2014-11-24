@@ -15,7 +15,7 @@ html
         script.
           var socket = io();
           socket.on('event', function(data) {
-            updateData(data);
+            updateData(data.teams);
           });
 
           var updateData = function(data) {
